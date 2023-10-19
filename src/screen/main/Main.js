@@ -11,8 +11,11 @@ import { ACCESS_TOKEN, REFRESH_TOKEN } from "../../constants/token";
 import request from "../../axios/axios";
 import { useEffect } from "react";
 import { refreshToken } from "../../axios/login/Login";
+import { useNavigate } from "react-router-dom";
 
 function Section() {
+  const navigate = useNavigate();
+
   return (
     <div id="s1" className="section section-3">
       <div style={{ height: "22%" }}></div>

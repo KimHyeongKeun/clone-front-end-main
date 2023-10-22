@@ -11,10 +11,8 @@ import { ACCESS_TOKEN, REFRESH_TOKEN } from "../../constants/token";
 import request from "../../axios/axios";
 import { useEffect } from "react";
 import { refreshToken } from "../../axios/login/Login";
-import { useNavigate } from "react-router-dom";
 
 function Section() {
-  const navigate = useNavigate();
 
   return (
     <div id="s1" className="section section-3">
@@ -23,7 +21,7 @@ function Section() {
         <div className="text1">Liberty 52_Frame</div>
         <div className="text2">One & Only Speaker</div>
         <div className="text3">내가 만드는 세상 유일</div>
-        <a className="order-button" href="/order">
+        <a className="order-button" href="/choose">
           구매하기
         </a>
       </div>
@@ -44,7 +42,7 @@ function Section2() {
         <p style={{ fontSize: "20px" }}>
           1mm 두께 승화전사 인쇄용 알루미늄시트
         </p>
-        <a className="order-button" href="/order">
+        <a className="order-button" href="/choose">
           구매하기
         </a>
       </div>
@@ -64,7 +62,7 @@ function Section3() {
       <div className="text-group">
         <h1>진동 블루투스 스피커</h1>
         <p style={{ fontSize: "20px" }}>고성능 블루투스 스피커 탑재</p>
-        <a className="order-button" href="/order">
+        <a className="order-button" href="/choose">
           구매하기
         </a>
       </div>
@@ -79,7 +77,7 @@ function Section4() {
       <div className="text-group">
         <h1>세계 유일</h1>
         <p style={{ fontSize: "20px" }}>나만의 액자형 스피커</p>
-        <a className="order-button" href="/order">
+        <a className="order-button" href="/choose">
           구매하기
         </a>
       </div>

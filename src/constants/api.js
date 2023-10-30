@@ -18,3 +18,5 @@ export const CREATE_REVIEW = () => `/product/reviews`;
 
 export const LICENSE_LIST = () => `/product/licenseImage`;
 
+// export const PRODUCT_LIST = (page, size) => `/product/products?page=${page}&size=${size}`;
+
